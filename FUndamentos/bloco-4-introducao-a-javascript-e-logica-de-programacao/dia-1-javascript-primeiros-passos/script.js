@@ -102,6 +102,7 @@ else if (bsalary <= 1566.94) {INSS = bsalary*0.08;}
 console.log(INSS);
 let BSal = bsalary - INSS;
 console.log(BSal);
+// CERTO ATE AQUI
 if (BSal >= 4664.68) {(IR = BSal*0.275);}
 else if (BSal >= 3751.06 && BSal <= 4664.68) {IR = BSal*0.225;}
 else if (BSal >= 2826.66 && BSal <= 3751.05) {IR = BSal*0.15;}
